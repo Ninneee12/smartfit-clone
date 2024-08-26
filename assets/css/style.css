@@ -1,2 +1,108 @@
-@import url('./base/_reset.css');
-@import url('./base/_fonts.css');
+/* @import url('./base/_reset.css');
+@import url('./base/_fonts.css'); */
+
+body {
+  background-color: #000000;
+
+}
+
+p{
+  color: blue;
+}
+
+
+.chat-icon{
+  width: 50px;
+  height: 50px;
+}
+
+.img-container{
+  width: 200px; /* Largura da div */
+  height: 200px; /* Altura da div */
+  background-image: url('../imgs/pexels-jonathanborba-3076514.jpg'); /* Caminho da imagem de fundo */
+  background-size: cover; /* Ajusta a imagem para cobrir toda a div */
+  background-position: center; /* Centraliza a imagem no contêiner */
+  position: relative; /* Necessário para o posicionamento do botão */
+}
+
+.btn-overlay1{
+  position: absolute; /* Posiciona o botão em relação ao contêiner pai */
+  top: 50%; /* Posiciona verticalmente no meio */
+  left: 50%; /* Posiciona horizontalmente no meio */
+  transform: translate(-50%, -50%); /* Centraliza o botão exatamente no meio */
+  padding: 10px 20px; /* Ajusta o espaçamento interno do botão */
+  
+
+}
+.search-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 320px;
+    border-radius: 16px;
+    background-color: transparent;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url('../imgs/pexels-jonathanborba-3076514.jpg'); 
+}
+.btn-link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 405px;
+    padding: 14px 20px;
+    background: #0dd606;
+    border-radius: 46px;
+    font-family: DM Sans, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    opacity: 0.9;
+}
+.btn-link:hover{
+    background-color: #19dd64;
+    color: #ffffff;
+} 
+.btn-link span {
+  position: absolute;
+    z-index: 8;
+    right: 15px;
+    top: 50%;
+    margin-top: -11.5px;
+}    
+a {
+  text-decoration: none !important;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+} 
+
+/* .btn-overlay{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 405px;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 46px;
+  font-family: DM Sans, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+*/
+
+.teste{
+  display: flex;
+}
